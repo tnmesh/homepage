@@ -25,7 +25,6 @@ theme:
 
 # Plugins
 plugins:
-  - include-markdown
   - blog:
       authors_file: "{blog}/.authors.yml"
 
