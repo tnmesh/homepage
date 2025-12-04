@@ -1,0 +1,47 @@
+site_name: Tennessee Meshtastic Network
+site_url: https://tnmesh.org
+site_description: A project dedicated to providing information for the Meshtastic network in the state of Tennessee.
+
+repo_url: https://github.com/tnmesh/homepage
+
+# Navigation
+nav:
+  - Home: index.md
+  - Connect to MQTT: mqtt.md
+  - Posts:
+    - blog/index.md
+  - Communities: communities.md
+
+# Theming
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+
+# Plugins
+plugins:
+  - include-markdown
+  - blog:
+      authors_file: "{blog}/.authors.yml"
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# CSS
+extra_css:
+  - static/styles/extra.css

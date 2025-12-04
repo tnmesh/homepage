@@ -1,0 +1,7 @@
+authors:
+  Christian:
+    name: string        # Author name
+    description: string # Author description
+    avatar: url         # Author avatar
+    slug: url           # Author profile slug
+    url: url            # Author website URL
