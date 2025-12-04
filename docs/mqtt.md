@@ -7,19 +7,27 @@ MQTT is a message-broker application that Meshtastic nodes can connect to. By co
 We use MQTT for collecting data from nodes across the state. From this data, we are able to populate applications such as [Malla](https://malla.tnmesh.org) to provide access to packets, metrics, maps and more.
 
 !!! note "How to help without connecting to MQTT"
-    If you would like to still help with contributing your nodes data but do not want to connect to MQTT, please set `OK to MQTT` to enabled.
+    If you would like to still help with contributing your nodes data but do not want to connect to MQTT, please set `OK to MQTT` to `true`.
 
     This allows any MQTT gateway (a node connected to MQTT) to submit your data to our MQTT server. For more information on enabling `OK to MQTT`, check out [Meshtastic's website](https://meshtastic.org/docs/configuration/radio/lora/#ok-to-mqtt).
 
 
-## MQTT Host and Credentials
+## MQTT Settings
 To make it easier to connect to our MQTT server, you only need to change the `Host` in your MQTT module as we use the default username and password.
 
-|              |                  |
-| ------------ | ---------------- |
-| Host       | `mqtt.tnmesh.org`  |
-| Username   | `meshdev`          |
-| Password   | `large4cats`       |
+| Key              |  Value       | Documentation |
+| ------------ | ---------------- | ---------------- |
+| Host       | `mqtt.tnmesh.org`  | [mqtt/#server-address](https://meshtastic.org/docs/configuration/module/mqtt/#server-address)
+| Username   | `meshdev`          | [mqtt/#username](https://meshtastic.org/docs/configuration/module/mqtt/#username)
+| Password   | `large4cats`       | [mqtt/#password](https://meshtastic.org/docs/configuration/module/mqtt/#password)
+| Primary Channel Uplink   | `true`       | [channels/#uplink-enabled](https://meshtastic.org/docs/configuration/radio/channels/#uplink-enabled)
+| Primary Channel Downlink   | `false`       | [channels/#downlink-enabled](https://meshtastic.org/docs/configuration/radio/channels/#downlink-enabled)
+| Ok to MQTT  | `true`       | [lora/#ok-to-mqtt](https://meshtastic.org/docs/configuration/radio/lora/#ok-to-mqtt)
+
+
+!!! note "Reminder"
+
+    We use MQTT strictly for collecting and displaying data from nodes across the state. To keep the system running smoothly for everyone, we kindly ask that you leave MQTT downlink turned off on all public channels. This helps reduce unnecessary traffic on the server.
 
 ## Selecting a Topic
 When selecting a root topic, use the topic that matches closely to the region your radio is located in.
@@ -31,5 +39,3 @@ For example, a radio that is located in <b>Nashville, TN</b> may wish to use the
 | East Tennessee   | `msh/US/TN/East`  |
 | Middle Tennessee | `msh/US/TN/Middle`|
 | West Tennessee   | `msh/US/TN/West`  |
-
-## MQTT Tools
