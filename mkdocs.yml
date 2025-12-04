@@ -45,3 +45,9 @@ markdown_extensions:
 # CSS
 extra_css:
   - static/styles/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/7bFRR8Jt22
+      name: Join our Discord

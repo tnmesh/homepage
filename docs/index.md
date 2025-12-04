@@ -16,10 +16,8 @@ A community project dedicated to providing information for the Meshtastic networ
 - [ℹ️ MeshInfo](https://meshinfo.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [🥔 Potato Map](https://potato.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [📍 MQTT Map](https://map.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
+- [TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
 </div>
-
-## Discord
-Have questions or want a place to hang out? Check out the [Discord](https://discord.gg/7bFRR8Jt22) server or find a local community near you down below!
 
 ## Local Communities
 Want your community added? Open a [pull request](https://github.com/tnmesh/homepage/pulls)!
