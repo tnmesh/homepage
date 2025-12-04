@@ -21,5 +21,28 @@ A community project dedicated to providing information for the Meshtastic networ
 ## Discord
 Have questions or want a place to hang out? Check out the [Discord](https://discord.gg/7bFRR8Jt22) server or find a local community near you down below!
 
-{% include-markdown "communities.md" %}
+## Local Communities
+Want your community added? Open a [pull request](https://github.com/tnmesh/homepage/pulls)!
 
+=== "Middle Tennessee"
+
+    <div class="grid cards" markdown>
+
+    - <figure markdown="span">
+        ![Image title](static/images/communities/nashmesh.png){ width="75"}
+        <figcaption>[NashMesh](http://nashmesh.com)</figcaption>
+      </figure>
+
+    </div>
+
+=== "West Tennessee"
+
+    <div class="grid cards" markdown>
+        Nothing to see here
+    </div>
+
+=== "East Tennessee"
+
+    <div class="grid cards" markdown>
+        Nothing to see here
+    </div>
