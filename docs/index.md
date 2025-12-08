@@ -1,22 +1,17 @@
 <!-- Future Logo Here -->
 A community project dedicated to providing information for the Meshtastic network in the state of Tennessee.
 
-!!! note "Nashville Meetup and MediumFast Discussion at Game Terminal, December 10th at 7pm"
+!!! note "Upcoming Events"
 
-    Friends in the Middle Tennessee area are holding their monthly meeting over at Game Terminal in Nashville, TN where they will be discussing the switch-over from #LongFast to #MediumFast and the pros and cons of it.
+    - [Nashville Meetup and MediumFast Discussion at Game Terminal - Dec 10th, 7PM CST](events/#nashville-meetup-and-mediumfast-discussion-at-game-terminal-december-10th-at-7pm)
 
-    This meeting will happen on December 10th @ 7pm over at:
-    ```201 Terminal Ct, Nashville, TN 37210```
-
-    <h3>To learn more about the meetup and #MediumFast discussion, check out the [NashMesh discord](http://nashmesh.com)!</h3>
-
-## Tools
+## Resources
 <div class="grid cards" markdown>
+- [💬 TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
 - [📊 Malla](https://malla.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [ℹ️ MeshInfo](https://meshinfo.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [🥔 Potato Map](https://potato.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [📍 MQTT Map](https://map.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
-- [TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
 </div>
 
 ## Local Communities
