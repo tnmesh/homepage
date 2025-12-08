@@ -9,6 +9,8 @@ nav:
   - Home: index.md
   - Connect to MQTT: mqtt.md
   - Upcoming Events: events.md
+  - Resources:
+    - High SNR Connections: resources/connections.md
   - Posts:
     - blog/index.md
 
@@ -26,6 +28,8 @@ theme:
 
 # Plugins
 plugins:
+  - search
+  - macros
   - blog:
       authors_file: "{blog}/.authors.yml"
 
