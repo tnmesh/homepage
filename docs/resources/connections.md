@@ -1,9 +1,9 @@
 # Connections
-Below are nodes that have an average SNR of ≥ 0db or more, or at least for what is stored in Malla. Data for this table is pulled from [here](https://malla.tnmesh.org/traceroute-graph).
+Below are nodes that have an average SNR of ≥ 0dB or more, or at least for what is stored in Malla. Data for this table is pulled from [here](https://malla.tnmesh.org/traceroute-graph).
 
 Note: Times are in CST.
 
-## SNR ≥ 0db
+## SNR ≥ 0dB
 
 <table>
     <tr>
@@ -20,7 +20,7 @@ Note: Times are in CST.
         <td>{{ item.connections }}</td>
         <td>{{ item.packet_count }}</td>
         {% if item.avg_snr %}
-            <td>{{ item.avg_snr }}db</td>
+            <td>{{ item.avg_snr }}dB</td>
         {% else %}
             <td>UNK</td>
         {% endif %}
