@@ -1,5 +1,6 @@
 import requests
 import datetime
+import zoneinfo
 
 MALLA_API_URL = "https://malla.tnmesh.org/api"
 
@@ -16,4 +17,5 @@ def define_env(env):
 
     @env.macro
     def convert_timestamp(timestamp):
-        return datetime.datetime.fromtimestamp(timestamp)
+        timezone = zoneinfo.ZoneInfo('America/Chicago')
+        return datetime.datetime.fromtimestamp(timestamp, tz=timezone).strftime('%Y-%m-%d %H:%M:%S')
