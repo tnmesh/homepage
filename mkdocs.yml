@@ -8,6 +8,7 @@ repo_url: https://github.com/tnmesh/homepage
 nav:
   - Home: index.md
   - Connect to MQTT: mqtt.md
+  - Upcoming Events: events.md
   - Posts:
     - blog/index.md
 
