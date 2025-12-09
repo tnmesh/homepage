@@ -141,9 +141,11 @@ async function buildInfrastructureNodesTable(index) {
 
         results.forEach((item, index) => {
             let status = '✅';
-            if (item.timeSinceLastUpdate > 1000 * 60 * 120) {
+            // 12 hours without being seen
+            if (item.timeSinceLastUpdate > 1000 * 60 * 60 * 12) {
                 status = '❌';
-            } else if(item.timeSinceLastUpdate > 1000 * 60 * 60) {
+            // 6 hours without being seen
+            } else if(item.timeSinceLastUpdate > 1000 * 60 * 60 * 6) {
                 status = '⚠️';
             }
 
