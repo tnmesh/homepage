@@ -1,7 +1,7 @@
 const url = "https://malla.tnmesh.org";
 
 async function fetchNetworkGraph() {
-    const response = await fetch(`${url}/api/traceroute/graph?hours=24&min_snr=0`);
+    const response = await fetch(`${url}/api/traceroute/graph?hours=24&min_snr=-20`);
     if (!response.ok) throw new Error(`Failed to load network graph`);
     const data = await response.json();
     const nodes = data['nodes']
@@ -62,7 +62,7 @@ async function buildTable() {
         results.forEach((item, index) => {
             html += `
             <tr>
-                <td><a href="https://malla.tnmesh.org/node/${item.id}>">${item.name}</a></td>
+                <td><a href="https://malla.tnmesh.org/node/${item.id}">${item.name}</a></td>
                 <td>${item.connections}</td>
                 <td>${item.packet_count}</td>
                 <td>${item.avg_snr ? `${item.avg_snr}dB` : 'Unknown'}</td>
