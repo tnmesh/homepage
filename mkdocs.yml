@@ -11,6 +11,7 @@ nav:
   - Upcoming Events: events.md
   - Resources:
     - High SNR Connections: resources/connections.md
+    - Infrastructure Nodes: resources/infrastructure-nodes.md
   - Posts:
     - blog/index.md
 
