@@ -3,7 +3,7 @@ A community project dedicated to providing information for the Meshtastic networ
 
 !!! note "Upcoming Events"
 
-    - [Nashville Meetup and MediumFast Discussion at Game Terminal - Dec 10th, 7PM CST](events/#nashville-meetup-and-mediumfast-discussion-at-game-terminal-december-10th-at-7pm)
+    No events are currently scheduled.
 
 ## Resources
 <div class="grid cards" markdown>
