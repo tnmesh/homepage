@@ -4,7 +4,20 @@ const infrastructureNodeIds = {
         2688094916, // Music Mountain Tower / tnmesh.org
         2230048818, // SPEEDWAY / DUB2
         1649278252, // Repeater_ShortMtn
-        2635746484 // Max Tree Node
+        2635746484, // Max Tree Node
+        3778153872, // Todd Knob
+        2688094804, // MX_1
+        3623035579, // MX_2
+        2354535109, // MX_3
+        1491704133, // MX_4
+        2653852284, // MX_L
+        2605745954, // Cannon 911
+        2733365860, // Green Hill
+        1734367387, // Rosehill
+        2732916580, // iGG2
+        2732685048, // DUB1
+        2732685076, // DUB3
+        2732697980 // DUB4
     ]
 };
 
