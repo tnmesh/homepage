@@ -3,7 +3,7 @@ A community project dedicated to providing information for the Meshtastic networ
 
 !!! note "Upcoming Events"
 
-    - [Nashville will be switching to `Medium_Fast` on January 3rd / Beginning stages for supporting MeshCore](events/2025/12/11/nashville-will-be-switching-to-medium_fast-on-january-3rd--beginning-stages-for-supporting-meshcore/)
+    - <h3>[Nashville will be switching to `Medium_Fast` on January 3rd / Beginning stages for supporting MeshCore](events/2025/12/11/nashville-will-be-switching-to-medium_fast-on-january-3rd--beginning-stages-for-supporting-meshcore/)</h3>
 
 ## Resources
 <div class="grid cards" markdown>
