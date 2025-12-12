@@ -8,12 +8,11 @@ repo_url: https://github.com/tnmesh/homepage
 nav:
   - Home: index.md
   - Connect to MQTT: mqtt.md
-  - Events: events.md
+  - Events:
+    - events/index.md
   - Resources:
     - High SNR Connections: resources/connections.md
     - Infrastructure Nodes: resources/infrastructure-nodes.md
-  - Posts:
-    - blog/index.md
 
 # Theming
 theme:
@@ -33,6 +32,7 @@ plugins:
   - macros
   - blog:
       authors_file: "{blog}/.authors.yml"
+      blog_dir: events
 
 # Extensions
 markdown_extensions:
