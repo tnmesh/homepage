@@ -13,7 +13,7 @@ const infrastructureNodeIds = {
         2653852284, // MX_L
         2605745954, // Cannon 911
         2733365860, // Green Hill
-        1734367387, // Rosehill
+        //1734367387, // Rosehill
         2732916580, // iGG2
         2732685048, // DUB1
         2732685076, // DUB3
