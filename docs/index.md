@@ -15,27 +15,17 @@ A community project dedicated to providing information for the Meshtastic networ
 </div>
 
 ## Local Communities
-Want your community added? Open a [pull request](https://github.com/tnmesh/homepage/pulls)!
 
-=== "Middle Tennessee"
-
-    <div class="grid cards" markdown>
-
-    - <figure markdown="span">
+<div class="grid cards" markdown>
+<figure markdown="span">
         ![Image title](static/images/communities/nashmesh.png){ width="75"}
-        <figcaption>[NashMesh](http://nashmesh.com)</figcaption>
-      </figure>
+        <figcaption><span>Middle Tennessee</span><br />[NashMesh](http://nashmesh.com)</figcaption>
+</figure>
 
-    </div>
+<figure markdown="span">
+        ![Image title](static/images/communities/kblast_mesh.png){ width="75"}
+        <figcaption><span>Middle/East Tennessee</span><br />[KBLAST Mesh](https://discord.gg/BQayUwxc56)</figcaption>
+</figure>
+</div>
 
-=== "West Tennessee"
-
-    <div class="grid cards" markdown>
-        Nothing to see here
-    </div>
-
-=== "East Tennessee"
-
-    <div class="grid cards" markdown>
-        Nothing to see here
-    </div>
+Want your community added? Open a [pull request](https://github.com/tnmesh/homepage/pulls)!
