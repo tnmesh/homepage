@@ -7,6 +7,10 @@ categories:
 
 The Nashville area has decided to conduct the switch-over from `Long_Fast` to `Medium_Fast` on *Janurary 3rd, 2026*.
 
+!!! question "Why the move to `Medium_Fast`?"
+
+    <h3>Check out this Meshtastic article to learn more: [Is LongFast Holding Your Mesh Back? Better LoRa Presets for Bigger Meshtastic Networks](https://meshtastic.org/blog/why-your-mesh-should-switch-from-longfast/).</h3>
+
 Things to note as the date approaches:
 
 - Messages will be sent over `Long_Fast` about the switch-over leading up to Janurary 3rd.
