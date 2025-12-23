@@ -22,13 +22,14 @@ Friends in the Middle Tennessee area are holding their monthly meeting over at 4
 ## Things to Discuss
 
 * Comparing before / after the `Medium_Fast` switch
+    - For information about the `Medium_Fast` switch, check out the [event](events/2025/12/11/nashville-will-be-switching-to-medium_fast-on-january-3rd--beginning-stages-for-supporting-meshcore/`) page!
 * Recommended settings (Telemetry intervals/Hop counts, etc)
 * Fundraising (How to fund the more elaborate infrastructure site builds)
 * Recruitment
 * Meshcore testing
 * And more!
 
-## Event Invitiation
+## Event Invitation
 To accept the meeting invitation, [click here](https://discord.gg/EQ7FX2f8?event=1452665270765355111)! To learn more about the meetup, check out the [NashMesh discord](http://nashmesh.com)!
 
 ## Parking / Entrance Map
