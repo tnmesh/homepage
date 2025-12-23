@@ -4,7 +4,7 @@ categories:
   - Meetups
   - Middle Tennessee
 ---
-# Nashville Meetup at 4Wall Entertainment, Janurary 7th at 7pm
+# Nashville Meetup at 4Wall Entertainment, January 7th at 7pm
 
 Friends in the Middle Tennessee area are holding their monthly meeting over at 4Wall Entertainment in Nashville, TN.
 
@@ -14,7 +14,7 @@ Friends in the Middle Tennessee area are holding their monthly meeting over at 4
 
     <h3>An earlier meet and greet will happen between 6 - 7pm in the same location</h3>
 
-* **Date & Time:** Wednesday, Janurary 7th, 2026, 7:00 PM CST
+* **Date & Time:** Wednesday, January 7th, 2026, 7:00 PM CST
 * **Location:** 4Wall Entertainment in Nashville, TN
 * **Address:** 111 Airpark Center E, Nashville, TN 37217
 * **Parking:** See the [entrance map](#parking-entrance-map) for more information on parking
