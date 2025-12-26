@@ -17,7 +17,14 @@ Things to note as the date approaches:
 - Smaller infrastructure nodes will be left as beacons to announce the switch-over.
 - `Medium_Fast` is the current future state of Nashville. There are no plans for switching back to `Long_Fast`.
 
-For any questions, please head over to the [NashMesh](http://nashmesh.com) Discord server, channel `#medium-fast-discussion`.
+## Configuration
+
+| Setting           | Description   | Documentation                                                |
+| ----------------- | ------------- | ------------------------------------------------------------ |
+| LoRa Preset       | `Medium_Fast` | [radio-settings/#presets](https://meshtastic.org/docs/overview/radio-settings/#presets)
+| Frequency Slot    | `45`          |
+
+For any questions, please head over to the [NashMesh](http://nashmesh.com) Discord server, channel `#medium-fast-discussion`. If you would like to connect to MQTT to help provide information for the network, check out the [MQTT guide](/mqtt).
 
 
 ## MeshCore
