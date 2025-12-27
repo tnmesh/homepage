@@ -1,0 +1,21 @@
+
+:root * {
+	--mt-primary-color: #67EA94;
+	--mt-primary-color--transparent: #67EA9488;
+	--mt-secondary-color: #2C2D3C;
+
+	--md-primary-fg-color: var(--mt-primary-color);
+	--md-primary-fg-color--light: var(--mt-primary-color);
+	--md-accent-fg-color: var(--mt-primary-color);
+	--md-accent-fg-color--transparent: var(--mt-primary-color--transparent);
+
+	--md-primary-bg-color: var(--mt-secondary-color);
+	--md-primary-bg-color--light: var(--mt-secondary-color);
+	--md-accent-bg-color: var(--mt-secondary-color);
+	--md-accent-bg-color--light: var(--mt-secondary-color);
+}
+
+.md-button__fill {
+    width: 100%;
+    text-align: center;
+}
