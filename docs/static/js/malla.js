@@ -1,26 +1,12 @@
 const url = "https://malla.tnmesh.org";
-const infrastructureNodeIds = {
-    "middle-tennessee": [
-        2688094916, // Music Mountain Tower / tnmesh.org
-        2230048818, // SPEEDWAY / DUB2
-        1649278252, // Repeater_ShortMtn
-        2635746484, // Max Tree Node
-        3778153872, // Todd Knob
-        2688094804, // MX_1
-        3623035579, // MX_2
-        2354535109, // MX_3
-        1491704133, // MX_4
-        2653852284, // MX_L
-        2605745954, // Cannon 911
-        2733365860, // Green Hill
-        //1734367387, // Rosehill
-        2732916580, // iGG2
-        2732685048, // DUB1
-        2732685076, // DUB3
-        2732697980 // DUB4
-    ]
-};
 
+async function fetchInfrastructureNodesByRegion() {
+    const response = await fetch(`${url}/api/infrastructure-nodes/by-region`);
+    if (!response.ok) throw new Error(`Failed to load infrastructure nodes by region`);
+
+    const data = await response.json();
+    return data['data'];
+}
 
 async function fetchDataForId(id) {
     const response = await fetch(`${url}/api/node/${id}/info`);
@@ -123,22 +109,19 @@ async function buildHighSNRNodeConnectionsTable() {
     }
 }
 
-async function buildInfrastructureNodesTable(index) {
+async function buildInfrastructureNodesTable(index, nodes) {
     const container = document.getElementById(`table-infrastructure-node-status-${index}`);
     if (!container) return;
 
     container.innerHTML = "<em>Loading…</em>";
 
     try {
-        const nodes = infrastructureNodeIds[index] ?? [];
-
         if (nodes.length === 0) {
             container.innerHTML = "<em>Empty</em>";
             return;
         }
 
-        const results = await Promise.all(nodes.map(fetchDataForId));
-        results.sort((a, b) => a.timeSinceLastUpdate - b.timeSinceLastUpdate)
+        nodes.sort((a, b) => a.last_packet_time_diff - b.last_packet_time_diff)
 
         let html = `
         <table>
@@ -152,20 +135,20 @@ async function buildInfrastructureNodesTable(index) {
             <tbody>
         `;
 
-        results.forEach((item, index) => {
+        nodes.forEach((item, index) => {
             let status = '✅';
             // 12 hours without being seen
-            if (item.timeSinceLastUpdate > 1000 * 60 * 60 * 12) {
+            if (item.last_packet_time_diff > 1000 * 60 * 60 * 12) {
                 status = '❌';
             // 6 hours without being seen
-            } else if(item.timeSinceLastUpdate > 1000 * 60 * 60 * 6) {
+            } else if(item.last_packet_time_diff > 1000 * 60 * 60 * 6) {
                 status = '⚠️';
             }
 
             html += `
             <tr>
                 <td><a href="https://malla.tnmesh.org/node/${item.node_id}">${item.long_name} (${item.short_name})</a></td>
-                <td>${status} ${item.timeAgo}</td>
+                <td>${status} ${convertTimestampToText(item.last_packet_time * 1000)}</td>
                 <td>${item.packet_count_24h}</td>
             </tr>
         `;
@@ -186,7 +169,14 @@ async function buildInfrastructureNodesTable(index) {
 
 document$.subscribe(() => {
     buildHighSNRNodeConnectionsTable();
-    buildInfrastructureNodesTable('west-tennessee');
-    buildInfrastructureNodesTable('east-tennessee');
-    buildInfrastructureNodesTable('middle-tennessee');
+
+    fetchInfrastructureNodesByRegion().then((data) => {
+        const keys = Object.keys(data).concat(['Middle', 'East', 'West'])
+
+        keys.forEach((key) => {
+            const nodes = data[key] ?? [];
+
+            buildInfrastructureNodesTable(key.toLowerCase(), nodes);
+        });
+    });
 });
