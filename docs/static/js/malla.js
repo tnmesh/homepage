@@ -138,10 +138,10 @@ async function buildInfrastructureNodesTable(index, nodes) {
         nodes.forEach((item, index) => {
             let status = '✅';
             // 12 hours without being seen
-            if (item.last_packet_time_diff > 1000 * 60 * 60 * 12) {
+            if (item.last_packet_time_diff > 60 * 60 * 12) {
                 status = '❌';
             // 6 hours without being seen
-            } else if(item.last_packet_time_diff > 1000 * 60 * 60 * 6) {
+            } else if(item.last_packet_time_diff > 60 * 60 * 6) {
                 status = '⚠️';
             }
 
