@@ -1,6 +1,8 @@
 <!-- Future Logo Here -->
 A community project dedicated to providing information for the Meshtastic network in the state of Tennessee.
 
+Want to learn more about connecting to the mesh? Check out our [recommended settings](/guides/settings) guide!
+
 !!! note "Upcoming Events"
 
     - <h3>[Nashville Meetup at 4Wall Entertainment, January 7th at 7pm](events/2025/12/23/nashville-meetup-at-4wall-entertainment-january-7th-at-7pm/)</h3>
