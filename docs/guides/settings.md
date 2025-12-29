@@ -1,9 +1,12 @@
 # Recommended Settings
 
-Please make sure to update the firmware on your device as you get started. The easiest way to do that is to use the [Web Flasher](https://flasher.meshtastic.org). The latest stable release, even if labeled Beta, is generally a very safe option.
+Please make sure to update the firmware on your device as you get started. The easiest way to do that is to use the [Web Flasher](https://flasher.meshtastic.org). The latest stable release, even if labeled `beta`, is generally a very safe option. To view the latest available firmware for meshtastic, check out [here](https://github.com/meshtastic/firmware/releases).
 
-Most importantly, make sure to keep all automatic beacons like telemetry and position (if used on a stationary node) to `6 hours+`. If you want to send position while moving, use *Smart Position*, with minimum `10 minutes` and distance trigger `100` to `130`. This helps keep the mesh network clean of background traffic that's of little use.
+!!! info "Using `alpha` instead of `beta`"
 
+    Please note that `alpha` releases of meshtastic are released **without extensive testing** from the public. This means you may experience issues.
+
+    If you wish to use `alpha` releases, feel free to report any bugs on [GitHub](https://github.com/meshtastic/firmware/issues). Some `alpha` releases may end up revoked and a downgrade is recommended to the previous release.
 
 ### LoRa
 
@@ -69,3 +72,6 @@ If you wish to setup MQTT, check out the [MQTT](/mqtt) configuration guide.
 | Environment Telemetry Enabled     | Enables the environment telemetry sensors | `true` | [telemetry/#environment-telemetry-enabled](https://meshtastic.org/docs/configuration/module/telemetry/#environment-telemetry-enabled)
 | Device Metrics Update Interval    | How often to send Device Metrics over the mesh | 6 hour (iOS) / 21,600 seconds (Android) |[telemetry/#device-metrics-update-interval](https://meshtastic.org/docs/configuration/module/telemetry/#device-metrics-update-interval)
 | Environment Metrics Update Intervall    | How often to send Device Metrics over the mesh | 6 hour (iOS) / 21,600 seconds (Android) |[telemetry/#environment-metrics-update-interval](https://meshtastic.org/docs/configuration/module/telemetry/#environment-metrics-update-interval)
+
+#### Tips
+* Make sure to keep all automatic beacons like telemetry and position (if used on a stationary node) to `6 hours+`. If you want to send position while moving, use *Smart Position*, with minimum `10 minutes` and distance trigger `100` to `130`. This helps keep the mesh network clean of background traffic that's of little use.
