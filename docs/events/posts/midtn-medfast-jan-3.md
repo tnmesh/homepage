@@ -5,6 +5,10 @@ categories:
 ---
 #  Nashville will be switching to `Medium_Fast` on January 3rd / Beginning stages for supporting MeshCore
 
+!!! note
+
+    This event has passed. `Medium_Fast` is now in effect for Nashville.
+
 The Nashville area has decided to conduct the switch-over from `Long_Fast` to `Medium_Fast` on *Janurary 3rd, 2026*.
 
 !!! question "Why the move to `Medium_Fast`?"

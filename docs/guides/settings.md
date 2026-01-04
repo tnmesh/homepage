@@ -23,9 +23,9 @@ Please make sure to update the firmware on your device as you get started. The e
 
 In general, most of Tennessee uses the `Long_Fast` preset. Below is a table defining presets in different areas of Tennessee.
 
-| Locations                         | Preset        |
-| --------------------------------- | ------------- |
-| Nashville (and surrounding areas) | `Long_Fast` ([switching to `Medium_Fast` on January 3rd, 2026](/events/2025/12/11/nashville-will-be-switching-to-medium_fast-on-january-3rd--beginning-stages-for-supporting-meshcore/)) |
+| Locations                         | Preset        | Frequency Slot |
+| --------------------------------- | ------------- | -------------- |
+| Nashville (and surrounding areas) | `Medium_Fast` | `45`           |
 
 ### Channels
 

@@ -7,8 +7,6 @@ Want to learn more about connecting to the mesh? Check out our [recommended sett
 
     - <h3>[Nashville Meetup at 4Wall Entertainment, January 7th at 7pm](events/2025/12/23/nashville-meetup-at-4wall-entertainment-january-7th-at-7pm/)</h3>
 
-    - <h3>[Nashville will be switching to `Medium_Fast` on January 3rd / Beginning stages for supporting MeshCore](events/2025/12/11/nashville-will-be-switching-to-medium_fast-on-january-3rd--beginning-stages-for-supporting-meshcore/)</h3>
-
 ## Resources
 <div class="grid cards" markdown>
 - [💬 TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
@@ -18,17 +16,26 @@ Want to learn more about connecting to the mesh? Check out our [recommended sett
 - [📍 MQTT Map](https://map.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 </div>
 
-## Local Communities
+## Connect to a Mesh Community
 
 <div class="grid cards" markdown>
 <figure markdown="span">
         ![Image title](static/images/communities/nashmesh.png){ width="75"}
-        <figcaption><span>Middle Tennessee</span><br />[NashMesh](http://nashmesh.com)</figcaption>
+        <figcaption>
+                <span>Middle Tennessee</span><br />
+                <span>*Preset:* `Medium_Fast`</span><br />
+                <span>*Frequency Slot:* `45`</span><br />
+                [NashMesh](http://nashmesh.com)
+        </figcaption>
 </figure>
 
 <figure markdown="span">
         ![Image title](static/images/communities/kblast_mesh.png){ width="75"}
-        <figcaption><span>Middle/East Tennessee</span><br />[KBLAST Mesh](https://discord.gg/BQayUwxc56)</figcaption>
+        <figcaption>
+                <span>Middle/East Tennessee</span><br />
+                <span>*Preset:* `Long_Fast`</span><br />
+                [KBLAST Mesh](https://discord.gg/BQayUwxc56)
+        </figcaption>
 </figure>
 </div>
 
