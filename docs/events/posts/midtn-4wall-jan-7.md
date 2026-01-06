@@ -30,7 +30,7 @@ Friends in the Middle Tennessee area are holding their monthly meeting over at 4
 * And more!
 
 ## Event Invitation
-To accept the meeting invitation, [click here](https://discord.gg/EQ7FX2f8?event=1452665270765355111)! To learn more about the meetup, check out the [NashMesh discord](http://nashmesh.com)!
+To accept the meeting invitation, [click here](https://discord.com/events/1292491344564195431/1452665270765355111)! To learn more about the meetup, check out the [NashMesh discord](http://nashmesh.com)!
 
 ## Parking / Entrance Map
 The image below shows where to park for the meetup.
