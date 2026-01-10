@@ -6,6 +6,10 @@ categories:
 ---
 # Nashville Meetup at 4Wall Entertainment, January 7th at 7pm
 
+!!! note
+
+    This event has passed.
+
 Friends in the Middle Tennessee area are holding their monthly meeting over at 4Wall Entertainment in Nashville, TN.
 
 **This event is a BYOB event so please bring what you would like to drink. Feel free also to bring nodes/laptops/tools as this meeting will have a classroom/lab vibe to it as well!**
