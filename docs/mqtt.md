@@ -39,3 +39,32 @@ For example, a radio that is located in <b>Nashville, TN</b> may wish to use the
 | East Tennessee   | `msh/US/TN/East`  |
 | Middle Tennessee | `msh/US/TN/Middle`|
 | West Tennessee   | `msh/US/TN/West`  |
+
+## Setup Images
+
+Provided are images showing each required change that is needed to setup MQTT.
+
+=== "Mac OS X and iOS"
+    First navigate to the `Settings` tab. For `iOS`, this option is on the bottom of the screen.
+    ![Image title](../static/images/mqtt/mac-os/01_Settings.jpg)
+
+    Then access the `Channels` option.
+    ![Image title](../static/images/mqtt/mac-os/02_Channels.png)
+
+    Click on the `Primary Channel` to configure settings for it.
+    ![Image title](../static/images/mqtt/mac-os/03_Primary_Channel.png)
+
+    Enable `Uplink Enabled` to allow MQTT to upload data the radio receives.
+    ![Image title](../static/images/mqtt/mac-os/04_Uplink_Enabled.png)
+
+    Navigate to the `Settings` tab again. For `iOS`, this option is on the bottom of the screen.
+    ![Image title](../static/images/mqtt/mac-os/05_Settings.jpg)
+
+    Click the `MQTT` module to configure settings for it.
+    ![Image title](../static/images/mqtt/mac-os/06_MQTT.png)
+
+    Set `Enabled` for MQTT and enable `Encryption Enabled`. If your radio depends on your phones cellular network for internet connectivity, enable `MQTT Client Proxy`.
+    ![Image title](../static/images/mqtt/mac-os/07_MQTT_Enabled.jpg)
+
+    Set the `Root Topic` and MQTT server details.
+    ![Image title](../static/images/mqtt/mac-os/08_Root_Topic_and_Server.png)
