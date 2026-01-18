@@ -1,13 +1,22 @@
 <!-- Future Logo Here -->
-A community project dedicated to providing information for the Meshtastic network in the state of Tennessee.
-
-Want to learn more about connecting to the mesh? Check out our [recommended settings](/guides/settings) guide!
+TNMesh is a community-based project dedicated to providing information for the Meshtastic network in the state of Tennessee.
 
 !!! note "Upcoming Events"
 
     - No events are currently scheduled.
 
-## Resources
+### Mission
+Our goal is to provide a reliable mesh network along with resources, guidance, and support for anyone who would like to use the network.
+We also provide a central place for finding local mesh communities across the state.
+
+Want to learn more about connecting to the mesh? Check out our [recommended settings](/guides/settings) guide!
+
+## What is Meshtastic?
+Meshtastic is an community-based, open-source project that provides for a decentralized, off-grid mesh network built on low-powered devices.
+To learn about Meshtastic, check out their [offical homepage](https://meshtastic.org).
+
+
+## Resources and Tools
 <div class="grid cards" markdown>
 - [💬 TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
 - [📊 Malla](https://malla.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
@@ -17,7 +26,6 @@ Want to learn more about connecting to the mesh? Check out our [recommended sett
 </div>
 
 ## Connect to a Mesh Community
-
 <div class="grid cards" markdown>
 <figure markdown="span">
         ![Image title](static/images/communities/nashmesh.png){ width="75"}
