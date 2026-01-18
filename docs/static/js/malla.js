@@ -128,6 +128,7 @@ async function buildInfrastructureNodesTable(index, nodes) {
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Role</th>
                     <th>Last Seen</th>
                     <th>24hr Packet Count</th>
                 </tr>
@@ -148,6 +149,7 @@ async function buildInfrastructureNodesTable(index, nodes) {
             html += `
             <tr>
                 <td><a href="https://malla.tnmesh.org/node/${item.node_id}">${item.long_name} (${item.short_name})</a></td>
+                <td>`${item.role}`</td>
                 <td>${status} ${convertTimestampToText(item.last_packet_time * 1000)}</td>
                 <td>${item.packet_count_24h}</td>
             </tr>
