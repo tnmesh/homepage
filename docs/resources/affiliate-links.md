@@ -1,6 +1,8 @@
 # Affiliate Links
 
 ## Middle Tennessee
+Using an affiliate link helps to fund projects in the middle Tennessee area!
+
 <a href="https://amzn.to/49iWJWx">RAKwireless WisBlock Meshtastic Starter Kit US915 Base RAK19007 + Core RAK4631</a><br /><br/>
 <a href="https://amzn.to/3YBVHic">ALFA Network AOA-915-5ACM 5 dbi Omni Outdoor 915MHz 802.11ah Mini Antenna for LoRa HaLow Application</a><br /><br/>
 <a href="https://amzn.to/49Q0pz3">FUTUREZEN Solar Panel for Security Camera, 10W Solar Charger with DC 5.5x2.1mm, USB-C & Micro USB Port, IP66 Waterproof, 360° Adjustable Mount, 7.2FT Cable</a><br /><br/><br/>
