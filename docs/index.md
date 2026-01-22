@@ -23,6 +23,7 @@ To learn about Meshtastic, check out their [offical homepage](https://meshtastic
 - [ℹ️ MeshInfo](https://meshinfo.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [🥔 Potato Map](https://potato.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
 - [📍 MQTT Map](https://map.tnmesh.org){ .md-button .md-button--primary .md-button__fill}
+- [💵 Fundraising](/fundraising){ .md-button .md-button--primary .md-button__fill}
 </div>
 
 ## Connect to a Mesh Community
