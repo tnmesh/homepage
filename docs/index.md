@@ -5,17 +5,6 @@ TNMesh is a community-based project dedicated to providing information for the M
 
     - No events are currently scheduled.
 
-### Mission
-Our goal is to provide a reliable mesh network along with resources, guidance, and support for anyone who would like to use the network.
-We also provide a central place for finding local mesh communities across the state.
-
-Want to learn more about connecting to the mesh? Check out our [recommended settings](/guides/settings) guide!
-
-## What is Meshtastic?
-Meshtastic is an community-based, open-source project that provides for a decentralized, off-grid mesh network built on low-powered devices.
-To learn about Meshtastic, check out their [offical homepage](https://meshtastic.org).
-
-
 ## Resources and Tools
 <div class="grid cards" markdown>
 - [💬 TNMesh Discord](https://discord.gg/7bFRR8Jt22){ .md-button .md-button--primary .md-button__fill}
