@@ -23,7 +23,7 @@ TNMesh is a community-based project dedicated to providing information for the M
                 <span>Middle Tennessee</span><br />
                 <span>*Preset:* `Medium_Fast`</span><br />
                 <span>*Frequency Slot:* `45`</span><br />
-                [NashMesh](http://nashmesh.com)
+                [NashMesh](https://nashme.sh)
         </figcaption>
 </figure>
 
