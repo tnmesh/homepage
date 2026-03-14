@@ -20,6 +20,7 @@ To make it easier to connect to our MQTT server, you only need to change the `Ho
 | Host       | `mqtt.tnmesh.org`  | [mqtt/#server-address](https://meshtastic.org/docs/configuration/module/mqtt/#server-address)
 | Username   | `meshdev`          | [mqtt/#username](https://meshtastic.org/docs/configuration/module/mqtt/#username)
 | Password   | `large4cats`       | [mqtt/#password](https://meshtastic.org/docs/configuration/module/mqtt/#password)
+| Topic      | `msh/US/TN/Middle` |
 | Primary Channel Uplink   | `true`       | [channels/#uplink-enabled](https://meshtastic.org/docs/configuration/radio/channels/#uplink-enabled)
 | Primary Channel Downlink   | `false`       | [channels/#downlink-enabled](https://meshtastic.org/docs/configuration/radio/channels/#downlink-enabled)
 | Ok to MQTT  | `true`       | [lora/#ok-to-mqtt](https://meshtastic.org/docs/configuration/radio/lora/#ok-to-mqtt)

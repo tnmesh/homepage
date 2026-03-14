@@ -20,5 +20,8 @@ Want your community added? Open a [pull request](https://github.com/tnmesh/homep
 === "East Tennessee"
 
     <div class="grid cards" markdown>
-        Nothing to see here
+        - <figure markdown="span">
+            ![Image title](static/images/communities/nashmesh.png){ width="100"}
+            <figcaption>[ChattMesh](http://nashmesh.com)</figcaption>
+        </figure>
     </div>

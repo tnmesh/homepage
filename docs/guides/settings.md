@@ -26,6 +26,7 @@ In general, most of Tennessee uses the `Long_Fast` preset. Below is a table defi
 | Locations                         | Preset        | Frequency Slot |
 | --------------------------------- | ------------- | -------------- |
 | Nashville (and surrounding areas) | `Medium_Fast` | `45`           |
+| Chattanooga (and surrounding areas) | `Medium_Fast` | `45`           |
 
 ### Channels
 
