@@ -42,7 +42,7 @@ TNMesh is a community-based project dedicated to providing information for the M
                 <span>East Tennessee</span><br />
                 <span>*Preset:* `Medium_Fast`</span><br />
                 <span>*Frequency Slot:* `45`</span><br />
-                [ChattMesh](https://discord.gg/7bFRR8Jt22) `#chattanooga`
+                [ChattMesh](https://discord.gg/7bFRR8Jt22)
         </figcaption>
 </figure>
 </div>
